@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IND3PTH</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @font-face {
+                    font-family: biome;
+                    src: url(biome.ttf);
+                }
+            body{
+                font-family: biome;
+            }
+            button{
+                font-family: biome;
+            }
+        </style>
+    </head>
+    <body background="grey">
+        <div class="container">      
+            <p style="text-align: center;"><img src="images/roctopus.jpg" class="img" height="200px" title="IND3PTH" style="margin-top: 2rem;"></p>
+            <h2 style="text-align: center;">
+            Roctopi!
+            </h2>
+            <hr>
+            <form action="https://formsubmit.co/printingprodigy@outlook.com" method="post">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" size="50px"><br>
+                <p>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname">
+                </p>
+                <label for="colour">Colour:</label><br>
+                <select name="colour" id="colour">
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="blue">Blue</option>
+                    <option value="purple">Purple</option>
+                    <option value="white">White</option>
+                    <option value="black">Black</option>
+                </select>
+                <p><label for="colour2">Add a second colour</label><br>
+                    <label for="colour2">(optional +50p):</label><br>
+                    <select name="colour2" id="colour2">
+                        <option value="none">None</option>
+                        <option value="red">Red</option>
+                        <option value="orange">Orange</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="blue">Blue</option>
+                        <option value="purple">Purple</option>
+                        <option value="white">White</option>
+                        <option value="black">Black</option>
+                    </select>
+                </p>
+				<input type="submit" name="submit" value="ORDER">
+            </form>
+        </div>
+    </body>
+</html>
